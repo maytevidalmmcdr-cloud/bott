@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(9, 173, 58);
+    text-shadow: 5px 5px 0px #1f6470;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.8s ease all;
+}
+
+
+#boton1 {
+    background: #ff5733;
+    border: #20d3f3 groove 5px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 15px #333;
+}
+#boton1:hover {
+    transform: scale(1.1);
+    background: #ff8c66;
+}
+
+
+#boton2 {
+    background: #33c1ff;
+    border: #cb6fae groove 5px;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    box-shadow: 5px 5px 20px #444;
+}
+#boton2:hover {
+    background: #66d9ff;
+    transform: rotate(5deg);
+}
+
+
+#boton3 {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 100px;
+    background: #9d33ff;
+    box-shadow: inset 0px 0px 10px #222;
+}
+#boton3:hover {
+    background: #b366ff;
+    transform: scale(1.2);
+}
+
+
+#boton4 {
+    border-radius: 25px;
+    background: #28a745;
+    box-shadow: 0px 0px 20px limegreen;
+    font-weight: bold;
+}
+#boton4:hover {
+    background: #5cd65c;
+    transform: translateX(10px);
+}
