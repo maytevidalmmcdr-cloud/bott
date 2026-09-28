@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  color: white;
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  margin:10px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 5px yellow;
+}
+
+#uno{
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: red;
+  margin: 10px auto;
+  color: yellow;
+}
+#dos{
+    display: block;
+    width: 300pt;
+    height: 300pt;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}
+
+#tres{
+    display: block;
+    width: 3in;
+    height: 3in;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}
+
+#cuatro{
+    display: block;
+    width: 3cm;
+    height: 3cm;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}
+
+#cinco{
+    display: block;
+    width: 30mm;
+    height: 30mm;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}
+#seis{
+    display: block;
+    width: 30pc;
+    height: 30pc;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}
+
+#siete{
+    display: block;
+    width: 300Q;
+    height: 300Q;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}

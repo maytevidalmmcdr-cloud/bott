@@ -1,76 +1,129 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
-h2 {
+h2{
     text-align: center;
     font-size: 100px;
     color: rgb(9, 173, 58);
-    text-shadow: 5px 5px 0px #1f6470;
+    text-shadow: 5px 5px 0px #20d3f3;
 }
 
-a {
+
+#boton1{
     display: block;
     text-align: center;
     text-decoration: none;
-    color: beige;
+    background: crimson;
+    color: white;
     width: 300px;
     height: 50px;
     font-size: 30px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    transition: 0.8s ease all;
-}
-
-
-#boton1 {
-    background: #ff5733;
-    border: #20d3f3 groove 5px;
-    border-radius: 50px;
-    box-shadow: 3px 3px 15px #333;
+    border: #ffcc00 groove 5px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 5px 5px 65px rgb(16, 200, 210);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #boton1:hover {
+    background: darkred;
+    color: rgb(192, 130, 80);
+    border: #00eeff groove 5px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px yellow;
     transform: scale(1.1);
-    background: #ff8c66;
 }
 
 
 #boton2 {
-    background: #33c1ff;
-    border: #cb6fae groove 5px;
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
-    box-shadow: 5px 5px 20px #444;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: teal;
+    color: white;
+    width: 320px;
+    height: 55px;
+    font-size: 28px;
+    margin: 12px auto;
+    padding: 12px;
+    border: #ff0066 groove 5px;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 5px 5px 45px pink;
+    font-family: "Courier New", monospace;
 }
 #boton2:hover {
-    background: #66d9ff;
-    transform: rotate(5deg);
+    background: darkslategray;
+    color: gold;
+    transform: scale(1.1);
 }
 
 
 #boton3 {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    line-height: 100px;
-    background: #9d33ff;
-    box-shadow: inset 0px 0px 10px #222;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: limegreen;
+    color: black;
+    width: 280px;
+    height: 60px;
+    font-size: 32px;
+    margin: 8px auto;
+    padding: 8px;
+    border: #0000ff groove 5px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px rgb(24, 24, 110);
+    font-family: "Tahoma", sans-serif;
 }
 #boton3:hover {
-    background: #b366ff;
-    transform: scale(1.2);
+    background: rgb(178, 228, 178);
+    color: white;
+    transform: scale(1.1);
 }
 
 
 #boton4 {
-    border-radius: 25px;
-    background: #28a745;
-    box-shadow: 0px 0px 20px limegreen;
-    font-weight: bold;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: gold;
+    color: black;
+    width: 310px;
+    height: 50px;
+    font-size: 29px;
+    margin: 15px auto;
+    padding: 10px;
+    border: #ff00ff groove 5px;
+    border-radius: 10px 40px 10px 40px;
+    box-shadow: 3px 3px 35px purple;
+    font-family: "Impact", sans-serif;
 }
 #boton4:hover {
-    background: #5cd65c;
-    transform: translateX(10px);
+    background: goldenrod;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+#boton5 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(17, 95, 122);
+    color: rgb(174, 174, 211);
+    width: 330px;
+    height: 65px;
+    font-size: 34px;
+    margin: 10px auto;
+    padding: 15px;
+    border: #d89be0 groove 5px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 40px cyan;
+    font-family: "Verdana", sans-serif;
+}
+#boton5:hover {
+    background: dodgerblue;
+    color: white;
+    transform: scale(1.1);
 }
